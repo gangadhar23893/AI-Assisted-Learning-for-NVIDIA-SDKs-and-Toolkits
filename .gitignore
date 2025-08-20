@@ -1,0 +1,6 @@
+.venv/
+.env
+data/*
+!data/faiss/
+!data/faiss/cuda_docs.index
+!data/faiss/metadata.pkl
