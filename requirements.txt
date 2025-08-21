@@ -1,20 +1,25 @@
-beautifulsoup4
-requests
-tqdm
-langchain
-pandas
-numpy
-langchain_community
-langchain-openai
-sentence_transformers
-numpy
-pandas
-python-dotenv
-faiss-cpu
-pickle5
-llama_cpp
-wget
-streamlit
+# beautifulsoup4
+# requests
+# tqdm
+# langchain
+# pandas
+# numpy
+# langchain_community
+# langchain-openai
+# sentence_transformers
+# numpy
+# pandas
+# python-dotenv
+# faiss-cpu
+# pickle5
+# llama_cpp
+# wget
+# streamlit
 
+streamlit
+numpy
+pickle5
+faiss-cpu
+sentence_transformers
 
 
