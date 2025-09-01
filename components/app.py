@@ -6,9 +6,9 @@ from sentence_transformers import SentenceTransformer
 
 # Load model, FAISS index, and metadata
 embedding_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-index = faiss.read_index("data/faiss/cuda_docs.index")
+index = faiss.read_index("/Users/gangadhar/Documents/my_folder/my_projects/Nvidia_toolkit_SDK_bot/data/faiss/cuda_docs.index")
 
-with open("data/faiss/metadata.pkl", "rb") as f:
+with open("/Users/gangadhar/Documents/my_folder/my_projects/Nvidia_toolkit_SDK_bot/data/faiss/metadata.pkl", "rb") as f:
     chunks = pickle.load(f)
 
 # Streamlit UI
